@@ -1,0 +1,45 @@
+.banner {
+    position: relative;
+}
+
+.banner .bannerImg {
+    width: 100%;
+    border: none;
+    display: block;
+}
+
+.banner div {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+}
+
+.banner div p {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 18px;
+}
+
+.content {
+   
+    width: 1200px;
+  
+    margin: auto;
+}
+.content .contentTop{
+    height: 833px;
+    border-bottom: 3px solid cornsilk;
+}
+.content .contentTop h2{line-height: 99px;font-size: 34px;text-align: center;}
+.content .contentTop a{display:  inline-block;margin-bottom: 12px; float: left;}
+.content .contentTop a:nth-of-type(1){margin-right: 17px;}
+.content .contentTop a:nth-of-type(2){margin-bottom: 8px;}
+.content .contentTop a:nth-of-type(4),.content .contentTop a:nth-of-type(5)
+{margin-right: 15px;}
+.content .contentBotton h2{line-height: 99px;font-size: 34px;text-align: center;}
+.content .contentBotton div{display: flex; flex-wrap: wrap; justify-content: space-between;}
+.content .contentBotton a{margin-bottom: 15px;}
+.content .contentBotton{
+    height: 844px;
+    
+}

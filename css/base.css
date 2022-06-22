@@ -1,0 +1,112 @@
+    * {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        text-decoration: none;
+        
+    }
+   
+    header .header a:link,header .header a:visited{color: white;}
+    nav .nav a:link,nav .nav a:visited{color: black;}
+    
+    li {
+        list-style: none;
+    }
+    
+    header,
+    nav,
+    banner,
+    footer {
+        width: 100%;
+    }
+    
+    header {
+        background-color: black;
+        color: white;
+    }
+    
+    header .header {
+        width: 1200px;
+        height: 47px;
+        margin: auto;
+    }
+    
+    header .header .left ,nav .nav .left li{
+        float: left;
+    }
+    
+    header .header .left li {
+        float: left;
+        margin-right: 42px;
+        line-height: 47px;
+        font-size: 14px;
+        cursor: pointer;
+    }
+    
+    header .header .right ,nav .nav a{
+        float: right;
+    }
+    
+    header .header .right li {
+        float: left;
+        margin-left: 42px;
+        line-height: 47px;
+        font-size: 14px;
+        cursor: pointer;
+    }
+    
+    header::after {
+        content: "";
+        visibility: hidden;
+        clear: both;
+    }
+    
+    nav .nav {
+        height: 56px;
+        width: 1200px;
+        margin: auto;
+        
+    }
+    nav{display: flex; line-height: 56px;}
+  
+   nav .nav .left li a{float: left; margin-right: 42px;}
+    nav .nav .left li a img{padding-top: 15px;}
+    nav .nav .right li a img{width: 30px; height: 30px; margin-left: 20px;padding-top: 15px;}
+    
+    footer {
+        background-color: black;
+    }
+    
+    footer .footer {
+        width: 1200px;
+        height: 127px;
+        color: white;
+        font-size: 14px;
+        text-align: center;
+       
+        margin: auto;
+        position: relative;
+    }
+    
+    footer .footer p {
+        line-height: 127px;
+        
+    }
+    
+    footer .footer img {
+        position: absolute;
+        top: -32px;
+        left: 572px;
+    }
+    
+    footer .footer a {
+        position: absolute;
+        top: -20px;
+        left: 588px;
+    }
+    
+    footer .footer a:link,
+    footer .footer a:visited {
+        color: white;
+        text-decoration: none;
+    }
